@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 
 :root {
-  --primary: #0f4c81;
-  --primary-strong: #0b3c66;
-  --accent: #11a8a2;
-  --accent-soft: #dff8f6;
-  --text: #0f172a;
-  --text-muted: #475569;
+  --primary: #3a6f96;
+  --primary-strong: #1e4f78;
+  --accent: #5bbd2f;
+  --accent-soft: #edf8db;
+  --text: #122338;
+  --text-muted: #4f6275;
   --surface: #ffffff;
-  --surface-muted: #f8fafc;
-  --border: #dbe4ee;
-  --ring: rgba(17, 168, 162, 0.25);
-  --hero-overlay: linear-gradient(102deg, rgba(2, 11, 24, 0.78) 4%, rgba(6, 23, 43, 0.6) 46%, rgba(15, 76, 129, 0.25) 100%);
+  --surface-muted: #f3f7fb;
+  --border: #cfdae6;
+  --ring: rgba(91, 189, 47, 0.28);
+  --hero-overlay: linear-gradient(102deg, rgba(12, 30, 48, 0.8) 4%, rgba(20, 55, 84, 0.62) 46%, rgba(58, 111, 150, 0.3) 100%);
   --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
   --shadow-card: 0 18px 44px rgba(15, 23, 42, 0.09);
   --radius-lg: 24px;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-family: "Manrope", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
-  background: radial-gradient(circle at 12% -18%, #ebf8ff 0%, #f7fbff 42%, #f4f8fc 100%);
+  background: radial-gradient(circle at 12% -18%, #eef4f9 0%, #f7fbff 42%, #f2f7fb 100%);
   line-height: 1.65;
 }
 
@@ -35,8 +35,8 @@ body {
   inset: 0;
   z-index: -2;
   background:
-    radial-gradient(54rem 28rem at 85% -10%, rgba(17, 168, 162, 0.11) 0%, rgba(17, 168, 162, 0) 62%),
-    radial-gradient(50rem 30rem at -5% 88%, rgba(15, 76, 129, 0.1) 0%, rgba(15, 76, 129, 0) 56%);
+    radial-gradient(54rem 28rem at 85% -10%, rgba(91, 189, 47, 0.12) 0%, rgba(91, 189, 47, 0) 62%),
+    radial-gradient(50rem 30rem at -5% 88%, rgba(58, 111, 150, 0.12) 0%, rgba(58, 111, 150, 0) 56%);
 }
 
 .container {
@@ -101,7 +101,7 @@ body {
 .site-nav a:hover,
 .site-nav a.active {
   color: #fff;
-  background: linear-gradient(135deg, var(--primary) 0%, #1567ac 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #5a8eb3 100%);
 }
 
 .hero {
@@ -133,7 +133,7 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #9ff4eb;
+  color: #c5ec54;
 }
 
 h1,
@@ -171,7 +171,7 @@ h1,
 .section {
   margin: 2rem auto;
   padding: clamp(1.35rem, 2.5vw, 2.5rem);
-  border: 1px solid rgba(219, 228, 238, 0.95);
+  border: 1px solid rgba(207, 218, 230, 0.95);
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.97) 0%, rgba(249, 252, 255, 0.97) 100%);
   box-shadow: var(--shadow-soft);
@@ -312,7 +312,7 @@ li {
 
 .contact {
   border: 1px solid var(--border);
-  background: linear-gradient(180deg, #ffffff 0%, #f7fcff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f4faee 100%);
 }
 
 .contact-grid {
@@ -353,26 +353,26 @@ li {
 
 .btn--primary {
   color: #fff;
-  background: linear-gradient(135deg, var(--primary) 0%, #1567ac 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, #5a8eb3 100%);
   border-color: transparent;
-  box-shadow: 0 10px 24px rgba(15, 76, 129, 0.22);
+  box-shadow: 0 10px 24px rgba(58, 111, 150, 0.24);
 }
 
 .btn--primary:hover {
-  box-shadow: 0 14px 30px rgba(15, 76, 129, 0.28);
+  box-shadow: 0 14px 30px rgba(58, 111, 150, 0.3);
 }
 
 .btn--secondary {
   color: var(--primary);
   background: #fff;
-  border-color: rgba(15, 76, 129, 0.26);
+  border-color: rgba(58, 111, 150, 0.28);
 }
 
 .btn--secondary:hover {
   color: #fff;
   background: var(--primary);
   border-color: var(--primary);
-  box-shadow: 0 10px 24px rgba(15, 76, 129, 0.2);
+  box-shadow: 0 10px 24px rgba(58, 111, 150, 0.24);
 }
 
 .cta-float {
@@ -387,13 +387,13 @@ li {
   background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
   padding: 0.92rem 1.18rem;
   border-radius: 999px;
-  box-shadow: 0 14px 28px rgba(15, 76, 129, 0.3);
+  box-shadow: 0 14px 28px rgba(58, 111, 150, 0.32);
 }
 
 .footer {
   margin-top: 2rem;
   padding: 3rem 0;
-  background: linear-gradient(135deg, #07172a 0%, #0b233e 100%);
+  background: linear-gradient(135deg, #122d48 0%, #1e4f78 100%);
   color: #fff;
 }
 
@@ -404,7 +404,7 @@ li {
 }
 
 .footer h3 {
-  color: #d4f7f3;
+  color: #c5ec54;
   font-size: 1.12rem;
   margin-bottom: 0.8rem;
 }
@@ -421,7 +421,7 @@ li {
 }
 
 .footer a:hover {
-  color: #9ff4eb;
+  color: #9ed54b;
 }
 
 .footer-social {
