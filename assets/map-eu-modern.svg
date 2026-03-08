@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Europe coverage map</title>
+  <desc id="desc">Modern stylized network map of Europe with LitC logistics routes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f9fd" />
+      <stop offset="100%" stop-color="#eaf2f9" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dce9f5" />
+      <stop offset="100%" stop-color="#c9dced" />
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9fcff" />
+      <stop offset="100%" stop-color="#edf4fb" />
+    </linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a6f96" />
+      <stop offset="100%" stop-color="#5bbd2f" />
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1e4f78" flood-opacity="0.15" />
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#5bbd2f" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" rx="34" fill="url(#bg)" />
+  <rect x="36" y="36" width="1128" height="688" rx="28" fill="url(#sea)" />
+
+  <g filter="url(#soft)">
+    <path
+      fill="url(#land)"
+      d="M270 460 L294 412 L325 390 L338 348 L371 321 L408 298 L451 286 L496 290 L533 308 L568 302 L605 281 L646 271 L688 279 L725 299 L754 326 L790 334 L828 357 L853 390 L858 420 L836 446 L810 452 L796 474 L812 505 L791 531 L759 544 L723 534 L697 514 L674 520 L650 548 L618 560 L585 554 L563 531 L543 507 L512 492 L487 474 L466 479 L445 505 L422 533 L384 545 L349 536 L325 514 L310 488 L291 474 Z"
+    />
+    <path
+      fill="url(#land)"
+      d="M664 548 L691 540 L718 549 L728 571 L716 593 L699 612 L711 640 L690 654 L666 640 L657 611 L644 585 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M676 232 L709 203 L747 190 L784 204 L804 235 L792 272 L760 289 L724 283 L697 262 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M515 300 L536 276 L562 270 L580 286 L576 315 L551 330 L527 324 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M486 309 L500 292 L518 295 L523 313 L510 328 L492 325 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M742 553 L769 559 L785 579 L776 599 L753 605 L736 590 L734 570 Z"
+      opacity="0.95"
+    />
+  </g>
+
+  <g stroke="url(#route)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <path d="M592 392 C620 380, 660 368, 690 375" />
+    <path d="M592 392 C520 430, 440 488, 360 530" />
+    <path d="M592 392 C622 460, 652 544, 688 620" />
+    <path d="M592 392 C642 326, 704 274, 748 242" />
+    <path d="M592 392 C568 348, 544 324, 530 308" />
+    <path d="M592 392 C672 402, 748 420, 815 438" />
+  </g>
+
+  <g fill="#3a6f96">
+    <circle cx="530" cy="308" r="10" />
+    <circle cx="360" cy="530" r="10" />
+    <circle cx="688" cy="620" r="10" />
+    <circle cx="690" cy="375" r="10" />
+    <circle cx="748" cy="242" r="10" />
+    <circle cx="815" cy="438" r="10" />
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="592" cy="392" r="16" fill="#5bbd2f" />
+  </g>
+  <circle cx="592" cy="392" r="12" fill="#5bbd2f" stroke="#ffffff" stroke-width="4" />
+
+  <g fill="#1e4f78" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
+    <text x="540" y="295">Benelux</text>
+    <text x="700" y="362">Polska</text>
+    <text x="760" y="230">Skandynawia</text>
+    <text x="828" y="432">Europa Wsch.</text>
+    <text x="695" y="646">Wlochy</text>
+    <text x="372" y="558">Francja / Hiszpania</text>
+  </g>
+
+  <rect x="74" y="74" width="430" height="86" rx="16" fill="#ffffff" opacity="0.88" />
+  <text x="100" y="126" fill="#1e4f78" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="33" font-weight="800">
+    Obszar dzialania EU
+  </text>
+</svg>
