@@ -36,13 +36,13 @@
   </defs>
 
   <g opacity="0.55" stroke="#8eba4e" stroke-width="5" fill="none">
-    <ellipse cx="575" cy="225" rx="360" ry="130"/>
-    <ellipse cx="575" cy="225" rx="360" ry="130" transform="rotate(28 575 225)"/>
-    <ellipse cx="575" cy="225" rx="360" ry="130" transform="rotate(-28 575 225)"/>
+    <ellipse cx="555" cy="225" rx="360" ry="130"/>
+    <ellipse cx="555" cy="225" rx="360" ry="130" transform="rotate(28 555 225)"/>
+    <ellipse cx="555" cy="225" rx="360" ry="130" transform="rotate(-28 555 225)"/>
   </g>
   <g fill="#9ed54b" filter="url(#softShadow)">
-    <circle cx="350" cy="132" r="28"/>
-    <circle cx="815" cy="122" r="24"/>
+    <circle cx="330" cy="132" r="28"/>
+    <circle cx="795" cy="122" r="24"/>
   </g>
 
   <g filter="url(#softShadow)">
@@ -51,15 +51,15 @@
     <text x="630" y="340" class="main-text stroke" font-size="270" fill="url(#blueMetal)">C</text>
   </g>
 
-  <text x="600" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="9" fill="#203c5e">
+  <text x="580" y="470" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="9" fill="#203c5e">
     LOGISTICS
   </text>
 
   <g stroke="#5e91b6" stroke-width="5" opacity="0.8">
-    <line x1="190" y1="560" x2="405" y2="560"/>
-    <line x1="795" y1="560" x2="1010" y2="560"/>
+    <line x1="170" y1="560" x2="385" y2="560"/>
+    <line x1="775" y1="560" x2="990" y2="560"/>
   </g>
-  <text x="600" y="580" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="5" fill="url(#nameGrad)">
+  <text x="580" y="580" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="5" fill="url(#nameGrad)">
     ADRIAN BRODA
   </text>
 </svg>
