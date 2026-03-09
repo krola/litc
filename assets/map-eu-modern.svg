@@ -29,68 +29,88 @@
   <rect x="0" y="0" width="1200" height="760" rx="34" fill="url(#bg)" />
   <rect x="36" y="36" width="1128" height="688" rx="28" fill="url(#sea)" />
 
-  <g filter="url(#soft)">
+  <g filter="url(#soft)" stroke="#2d3945" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
     <path
       fill="url(#land)"
-      d="M270 460 L294 412 L325 390 L338 348 L371 321 L408 298 L451 286 L496 290 L533 308 L568 302 L605 281 L646 271 L688 279 L725 299 L754 326 L790 334 L828 357 L853 390 L858 420 L836 446 L810 452 L796 474 L812 505 L791 531 L759 544 L723 534 L697 514 L674 520 L650 548 L618 560 L585 554 L563 531 L543 507 L512 492 L487 474 L466 479 L445 505 L422 533 L384 545 L349 536 L325 514 L310 488 L291 474 Z"
+      d="M248 518 L266 470 L295 446 L323 440 L350 410 L385 384 L425 372 L468 370 L505 356 L544 334 L588 316 L636 312 L682 326 L720 350 L760 356 L804 368 L840 392 L858 421 L854 448 L824 470 L772 478 L732 498 L722 530 L742 560 L724 586 L686 598 L648 590 L616 572 L582 572 L548 590 L512 622 L470 644 L424 640 L398 616 L390 586 L362 578 L324 586 L292 574 L256 548 Z"
     />
     <path
       fill="url(#land)"
-      d="M664 548 L691 540 L718 549 L728 571 L716 593 L699 612 L711 640 L690 654 L666 640 L657 611 L644 585 Z"
+      d="M566 576 L596 568 L624 576 L642 604 L634 634 L612 658 L622 690 L598 706 L574 694 L560 662 L546 628 Z"
       opacity="0.95"
     />
     <path
       fill="url(#land)"
-      d="M676 232 L709 203 L747 190 L784 204 L804 235 L792 272 L760 289 L724 283 L697 262 Z"
+      d="M598 256 L632 220 L676 196 L724 194 L758 214 L774 246 L770 284 L744 312 L706 324 L666 316 L634 292 Z"
       opacity="0.95"
     />
     <path
       fill="url(#land)"
-      d="M515 300 L536 276 L562 270 L580 286 L576 315 L551 330 L527 324 Z"
+      d="M430 396 L446 382 L464 386 L470 402 L458 416 L438 414 Z"
       opacity="0.95"
     />
     <path
       fill="url(#land)"
-      d="M486 309 L500 292 L518 295 L523 313 L510 328 L492 325 Z"
+      d="M390 388 L408 372 L426 376 L432 392 L420 406 L400 404 Z"
       opacity="0.95"
     />
     <path
       fill="url(#land)"
-      d="M742 553 L769 559 L785 579 L776 599 L753 605 L736 590 L734 570 Z"
+      d="M654 602 L680 610 L694 632 L686 652 L662 658 L646 642 L644 622 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M744 296 L762 278 L778 280 L780 296 L768 310 L752 312 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M196 262 L222 246 L254 246 L278 258 L284 278 L274 296 L248 304 L220 300 L198 284 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M258 366 L280 350 L304 354 L318 374 L312 396 L288 406 L266 402 L252 386 Z"
+      opacity="0.95"
+    />
+    <path
+      fill="url(#land)"
+      d="M742 710 L772 706 L796 714 L786 728 L758 732 L740 724 Z"
       opacity="0.95"
     />
   </g>
 
   <g stroke="url(#route)" stroke-width="6" stroke-linecap="round" opacity="0.9">
-    <path d="M592 392 C620 380, 660 368, 690 375" />
-    <path d="M592 392 C520 430, 440 488, 360 530" />
-    <path d="M592 392 C622 460, 652 544, 688 620" />
-    <path d="M592 392 C642 326, 704 274, 748 242" />
-    <path d="M592 392 C568 348, 544 324, 530 308" />
-    <path d="M592 392 C672 402, 748 420, 815 438" />
+    <path d="M560 430 C600 420, 650 412, 694 424" />
+    <path d="M560 430 C490 468, 418 520, 344 550" />
+    <path d="M560 430 C578 508, 598 590, 592 652" />
+    <path d="M560 430 C602 350, 640 292, 688 256" />
+    <path d="M560 430 C504 416, 456 404, 420 392" />
+    <path d="M560 430 C628 450, 678 482, 706 520" />
   </g>
 
   <g fill="#3a6f96">
-    <circle cx="530" cy="308" r="10" />
-    <circle cx="360" cy="530" r="10" />
-    <circle cx="688" cy="620" r="10" />
-    <circle cx="690" cy="375" r="10" />
-    <circle cx="748" cy="242" r="10" />
-    <circle cx="815" cy="438" r="10" />
+    <circle cx="420" cy="392" r="10" />
+    <circle cx="344" cy="550" r="10" />
+    <circle cx="592" cy="652" r="10" />
+    <circle cx="694" cy="424" r="10" />
+    <circle cx="688" cy="256" r="10" />
+    <circle cx="706" cy="520" r="10" />
   </g>
 
   <g filter="url(#glow)">
-    <circle cx="592" cy="392" r="16" fill="#5bbd2f" />
+    <circle cx="560" cy="430" r="16" fill="#5bbd2f" />
   </g>
-  <circle cx="592" cy="392" r="12" fill="#5bbd2f" stroke="#ffffff" stroke-width="4" />
+  <circle cx="560" cy="430" r="12" fill="#5bbd2f" stroke="#ffffff" stroke-width="4" />
 
   <g fill="#1e4f78" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
-    <text x="540" y="295">Benelux</text>
-    <text x="700" y="362">Polska</text>
-    <text x="760" y="230">Skandynawia</text>
-    <text x="828" y="432">Europa Wsch.</text>
-    <text x="695" y="646">Wlochy</text>
-    <text x="372" y="558">Francja / Hiszpania</text>
+    <text x="438" y="376">Benelux</text>
+    <text x="706" y="410">Polska</text>
+    <text x="724" y="238">Skandynawia</text>
+    <text x="716" y="508">Balkany</text>
+    <text x="606" y="702">Wlochy</text>
+    <text x="358" y="574">Francja / Hiszpania</text>
   </g>
 
   <rect x="74" y="74" width="430" height="86" rx="16" fill="#ffffff" opacity="0.88" />
